@@ -1,4 +1,5 @@
-API_KEY = "demo_secret_123"
+import os
+API_KEY = os.getenv("API_KEY")
 
 PASSWORD = "admin123"
 
